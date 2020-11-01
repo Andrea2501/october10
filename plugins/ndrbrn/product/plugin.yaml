@@ -1,0 +1,16 @@
+plugin:
+    name: 'ndrbrn.product::lang.plugin.name'
+    description: 'ndrbrn.product::lang.plugin.description'
+    author: ndrbrn
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'ndrbrn.product::lang.plugin.name'
+        url: ndrbrn/product/products
+        icon: icon-archive
+        sideMenu:
+            side-menu-item:
+                label: Variazioni
+                url: ndrbrn/product/variations
+                icon: icon-sitemap

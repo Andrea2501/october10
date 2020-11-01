@@ -1,0 +1,24 @@
+columns:
+    id:
+        label: Id
+        type: number
+        searchable: true
+        sortable: true
+    product_name:
+        label: Nome
+        type: text
+        searchable: true
+        sortable: true
+    product_type:
+        label: 'Tipo Prodotto'
+        type: text
+        searchable: true
+        sortable: true
+    created_at:
+        label: 'Data Creazione'
+        type: datetime
+        sortable: true
+    updated_at:
+        label: 'Data Aggiornamento'
+        type: datetime
+        sortable: true

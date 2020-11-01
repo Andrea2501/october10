@@ -1,0 +1,25 @@
+fields:
+    order_ref:
+        label: 'Riferimento ordine'
+        span: left
+        type: text
+    order_date:
+        label: Data
+        span: auto
+        type: text
+    subtotal:
+        label: Subtotale
+        span: left
+        type: text
+    order_vat:
+        label: Iva
+        span: right
+        type: text
+    order_total:
+        label: 'Totale Ordine'
+        span: left
+        type: text
+    order_status:
+        label: 'Stato ordine'
+        span: right
+        type: text

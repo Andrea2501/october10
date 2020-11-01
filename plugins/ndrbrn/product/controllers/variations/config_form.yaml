@@ -1,0 +1,10 @@
+name: Variations
+form: $/ndrbrn/product/models/variation/fields.yaml
+modelClass: Ndrbrn\Product\Models\Variation
+defaultRedirect: ndrbrn/product/variations
+create:
+    redirect: 'ndrbrn/product/variations/update/:id'
+    redirectClose: ndrbrn/product/variations
+update:
+    redirect: ndrbrn/product/variations
+    redirectClose: ndrbrn/product/variations

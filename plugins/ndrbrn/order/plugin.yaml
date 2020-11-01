@@ -1,0 +1,16 @@
+plugin:
+    name: 'ndrbrn.order::lang.plugin.name'
+    description: 'ndrbrn.order::lang.plugin.description'
+    author: ndrbrn
+    icon: oc-icon-angle-double-right
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Ordini
+        url: ndrbrn/order/orders
+        icon: icon-bookmark
+        sideMenu:
+            side-menu-item:
+                label: Righe
+                url: ndrbrn/order/rows
+                icon: icon-sitemap

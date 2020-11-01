@@ -1,0 +1,4 @@
+title: Rows
+modelClass: Ndrbrn\Order\Models\Row
+toolbar:
+    buttons: reorder_toolbar

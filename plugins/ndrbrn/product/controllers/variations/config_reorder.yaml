@@ -1,0 +1,4 @@
+title: Variations
+modelClass: Ndrbrn\Product\Models\Variation
+toolbar:
+    buttons: reorder_toolbar

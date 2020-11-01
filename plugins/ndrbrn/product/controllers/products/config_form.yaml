@@ -1,0 +1,10 @@
+name: Products
+form: $/ndrbrn/product/models/product/fields.yaml
+modelClass: Ndrbrn\Product\Models\Product
+defaultRedirect: ndrbrn/product/products
+create:
+    redirect: 'ndrbrn/product/products/update/:id'
+    redirectClose: ndrbrn/product/products
+update:
+    redirect: ndrbrn/product/products
+    redirectClose: ndrbrn/product/products

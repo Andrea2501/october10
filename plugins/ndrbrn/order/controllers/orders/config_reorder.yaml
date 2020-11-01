@@ -1,0 +1,4 @@
+title: Orders
+modelClass: Ndrbrn\Order\Models\Order
+toolbar:
+    buttons: reorder_toolbar

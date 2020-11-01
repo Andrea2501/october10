@@ -1,0 +1,10 @@
+name: Rows
+form: $/ndrbrn/order/models/row/fields.yaml
+modelClass: Ndrbrn\Order\Models\Row
+defaultRedirect: ndrbrn/order/rows
+create:
+    redirect: 'ndrbrn/order/rows/update/:id'
+    redirectClose: ndrbrn/order/rows
+update:
+    redirect: ndrbrn/order/rows
+    redirectClose: ndrbrn/order/rows

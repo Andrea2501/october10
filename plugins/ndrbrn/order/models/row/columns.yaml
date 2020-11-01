@@ -1,0 +1,31 @@
+columns:
+    id:
+        label: Id
+        type: number
+        searchable: true
+        sortable: true
+    order_id:
+        label: 'Id ordine'
+        type: number
+        searchable: true
+        sortable: true
+    product_id:
+        label: 'Id prodotto'
+        type: number
+        searchable: true
+        sortable: true
+    variation_id:
+        label: 'Id variazione'
+        type: number
+        searchable: true
+        sortable: true
+    qty:
+        label: Quantità
+        type: number
+        searchable: true
+        sortable: true
+    row_total:
+        label: Totale
+        type: number
+        searchable: true
+        sortable: true
