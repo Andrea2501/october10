@@ -1,0 +1,36 @@
+[2020-11-01 09:44:10] dev.ERROR: ErrorException: file_put_contents(/opt/lampp/htdocs/october10/install-master/storage/framework/sessions/6qFSorjsLRsBjaLrunFAaueyVnf4VZ5hAvE5XRNV): failed to open stream: Permesso negato in /opt/lampp/htdocs/october10/install-master/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/opt/lampp/htdo...', 122, Array)
+#1 /opt/lampp/htdocs/october10/install-master/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/opt/lampp/htdo...', 'a:3:{s:6:"_toke...', 2)
+#2 /opt/lampp/htdocs/october10/install-master/vendor/october/rain/src/Filesystem/Filesystem.php(217): Illuminate\Filesystem\Filesystem->put('/opt/lampp/htdo...', 'a:3:{s:6:"_toke...', true)
+#3 /opt/lampp/htdocs/october10/install-master/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): October\Rain\Filesystem\Filesystem->put('/opt/lampp/htdo...', 'a:3:{s:6:"_toke...', true)
+#4 /opt/lampp/htdocs/october10/install-master/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\Session\FileSessionHandler->write('6qFSorjsLRsBjaL...', 'a:3:{s:6:"_toke...')
+#5 /opt/lampp/htdocs/october10/install-master/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\Session\Store->save()
+#6 /opt/lampp/htdocs/october10/install-master/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\Session\Middleware\StartSession->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#7 /opt/lampp/htdocs/october10/install-master/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\Foundation\Http\Kernel->terminateMiddleware(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#8 /opt/lampp/htdocs/october10/install-master/index.php(48): Illuminate\Foundation\Http\Kernel->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#9 {main}  
+[2020-11-01 09:44:19] dev.ERROR: ErrorException: file_put_contents(/opt/lampp/htdocs/october10/install-master/storage/framework/sessions/6qFSorjsLRsBjaLrunFAaueyVnf4VZ5hAvE5XRNV): failed to open stream: Permesso negato in /opt/lampp/htdocs/october10/install-master/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/opt/lampp/htdo...', 122, Array)
+#1 /opt/lampp/htdocs/october10/install-master/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/opt/lampp/htdo...', 'a:5:{s:6:"_toke...', 2)
+#2 /opt/lampp/htdocs/october10/install-master/vendor/october/rain/src/Filesystem/Filesystem.php(217): Illuminate\Filesystem\Filesystem->put('/opt/lampp/htdo...', 'a:5:{s:6:"_toke...', true)
+#3 /opt/lampp/htdocs/october10/install-master/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): October\Rain\Filesystem\Filesystem->put('/opt/lampp/htdo...', 'a:5:{s:6:"_toke...', true)
+#4 /opt/lampp/htdocs/october10/install-master/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\Session\FileSessionHandler->write('6qFSorjsLRsBjaL...', 'a:5:{s:6:"_toke...')
+#5 /opt/lampp/htdocs/october10/install-master/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\Session\Store->save()
+#6 /opt/lampp/htdocs/october10/install-master/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\Session\Middleware\StartSession->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#7 /opt/lampp/htdocs/october10/install-master/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\Foundation\Http\Kernel->terminateMiddleware(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#8 /opt/lampp/htdocs/october10/install-master/index.php(48): Illuminate\Foundation\Http\Kernel->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#9 {main}  
+[2020-11-01 09:44:19] dev.ERROR: ErrorException: file_put_contents(/opt/lampp/htdocs/october10/install-master/storage/framework/sessions/6qFSorjsLRsBjaLrunFAaueyVnf4VZ5hAvE5XRNV): failed to open stream: Permesso negato in /opt/lampp/htdocs/october10/install-master/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/opt/lampp/htdo...', 122, Array)
+#1 /opt/lampp/htdocs/october10/install-master/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/opt/lampp/htdo...', 'a:2:{s:6:"_toke...', 2)
+#2 /opt/lampp/htdocs/october10/install-master/vendor/october/rain/src/Filesystem/Filesystem.php(217): Illuminate\Filesystem\Filesystem->put('/opt/lampp/htdo...', 'a:2:{s:6:"_toke...', true)
+#3 /opt/lampp/htdocs/october10/install-master/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): October\Rain\Filesystem\Filesystem->put('/opt/lampp/htdo...', 'a:2:{s:6:"_toke...', true)
+#4 /opt/lampp/htdocs/october10/install-master/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\Session\FileSessionHandler->write('6qFSorjsLRsBjaL...', 'a:2:{s:6:"_toke...')
+#5 /opt/lampp/htdocs/october10/install-master/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\Session\Store->save()
+#6 /opt/lampp/htdocs/october10/install-master/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\Session\Middleware\StartSession->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#7 /opt/lampp/htdocs/october10/install-master/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\Foundation\Http\Kernel->terminateMiddleware(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#8 /opt/lampp/htdocs/october10/install-master/index.php(48): Illuminate\Foundation\Http\Kernel->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#9 {main}  
