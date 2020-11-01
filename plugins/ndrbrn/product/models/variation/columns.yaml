@@ -1,0 +1,29 @@
+columns:
+    id:
+        label: 'Id Variazione'
+        type: number
+        searchable: true
+        sortable: true
+    product_id:
+        label: 'Id Prodotto'
+        type: number
+        sortable: true
+    variation_code:
+        label: 'Codice Variazione'
+        type: text
+        searchable: true
+        sortable: true
+    variation_name:
+        label: 'Nome Variazione'
+        type: text
+        searchable: true
+        sortable: true
+    variation_type:
+        label: 'Tipo Variazione'
+        type: text
+        searchable: true
+        sortable: true
+    variation_price:
+        label: Prezzo
+        type: number
+        sortable: true

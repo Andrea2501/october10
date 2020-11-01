@@ -1,0 +1,31 @@
+columns:
+    id:
+        label: Id
+        type: number
+        searchable: true
+        sortable: true
+    order_ref:
+        label: Riferimento
+        type: text
+        searchable: true
+        sortable: true
+    order_date:
+        label: 'Data Ordine'
+        type: datetime
+        searchable: true
+        sortable: true
+    order_status:
+        label: 'Stato ordine'
+        type: text
+        searchable: true
+        sortable: true
+    user_id:
+        label: Utente
+        type: number
+        searchable: true
+        sortable: true
+    order_total:
+        label: 'Totale Ordine'
+        type: number
+        searchable: true
+        sortable: true

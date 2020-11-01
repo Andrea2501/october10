@@ -1,0 +1,19 @@
+fields:
+    product_name:
+        label: 'Nome Prodotto'
+        span: auto
+        type: text
+    product_type:
+        label: 'Tipo Prodotto'
+        span: auto
+        type: text
+    product_excerpt:
+        label: Excerpt
+        size: ''
+        span: full
+        type: textarea
+    product_description:
+        label: 'Descrizione completa'
+        size: ''
+        span: full
+        type: textarea

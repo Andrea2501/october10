@@ -1,0 +1,26 @@
+fields:
+    variation_code:
+        label: Codice
+        span: left
+        type: text
+    variation_name:
+        label: Nome
+        span: full
+        type: text
+    variation_excerpt:
+        label: Riassunto
+        span: full
+        type: text
+    variation_desc:
+        label: Descrizione
+        size: ''
+        span: full
+        type: richeditor
+    variation_price:
+        label: Prezzo
+        span: left
+        type: text
+    product_id:
+        label: Prodotto
+        span: right
+        type: text

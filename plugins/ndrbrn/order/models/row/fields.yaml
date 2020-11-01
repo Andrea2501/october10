@@ -1,0 +1,29 @@
+fields:
+    id:
+        label: 'Id riga'
+        span: auto
+        type: text
+    product_id:
+        label: 'Id Prodotto'
+        span: left
+        type: text
+    variation_id:
+        label: 'id Variazione'
+        span: right
+        type: text
+    order_id:
+        label: 'Id ordine'
+        span: auto
+        type: text
+    subtotal_row:
+        label: Subtotale
+        span: left
+        type: text
+    row_vat:
+        label: Iva
+        span: right
+        type: text
+    row_total:
+        label: 'Totale Riga'
+        span: left
+        type: text

@@ -1,0 +1,10 @@
+name: Orders
+form: $/ndrbrn/order/models/order/fields.yaml
+modelClass: Ndrbrn\Order\Models\Order
+defaultRedirect: ndrbrn/order/orders
+create:
+    redirect: 'ndrbrn/order/orders/update/:id'
+    redirectClose: ndrbrn/order/orders
+update:
+    redirect: ndrbrn/order/orders
+    redirectClose: ndrbrn/order/orders
